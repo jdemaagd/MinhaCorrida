@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7B3A022F898B3922FDAAD69E /* Pods_MinhaCorrida.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100EB91D9FF6EEDA98A706AD /* Pods_MinhaCorrida.framework */; };
-		7F7DF245A4B036DC10E98D23 /* Pods_MinhaCorridaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B42A7B80F5CE542E1CEA76C /* Pods_MinhaCorridaTests.framework */; };
-		DEED549D6E9E1A9F8C4D59FA /* Pods_MinhaCorrida_MinhaCorridaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52267AF0DD46FDF958177A4E /* Pods_MinhaCorrida_MinhaCorridaUITests.framework */; };
 		E602F8CB2504168A0006F68F /* CarrotsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8CA2504168A0006F68F /* CarrotsTableViewController.swift */; };
 		E602F8CD250416D90006F68F /* PastRunsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8CC250416D90006F68F /* PastRunsTableViewController.swift */; };
 		E602F8CF250417140006F68F /* CarrotDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8CE250417140006F68F /* CarrotDetailsViewController.swift */; };
@@ -17,6 +15,10 @@
 		E602F8D3250417950006F68F /* RunDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8D2250417950006F68F /* RunDetailsViewController.swift */; };
 		E602F8D52504352B0006F68F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8D42504352B0006F68F /* DataController.swift */; };
 		E6030B4C2542562F00D2F394 /* MinhaCorrida.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6030B4A2542562F00D2F394 /* MinhaCorrida.xcdatamodeld */; };
+		E604A18F254370410026F1E7 /* MinhaCorridaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604A18E254370410026F1E7 /* MinhaCorridaUITests.swift */; };
+		E604A19F2543704E0026F1E7 /* MinhaCorridaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604A19E2543704E0026F1E7 /* MinhaCorridaTests.swift */; };
+		E604A1BF254372B60026F1E7 /* SecretsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604A1BE254372B60026F1E7 /* SecretsManager.swift */; };
+		E604A1C4254373C10026F1E7 /* Secrets.json in Resources */ = {isa = PBXBuildFile; fileRef = E604A1C3254373C10026F1E7 /* Secrets.json */; };
 		E6109FFA250EB939009739F4 /* PastRunsTableViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6109FF9250EB939009739F4 /* PastRunsTableViewController+Extensions.swift */; };
 		E6109FFD250EBCB7009739F4 /* PastRunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6109FFC250EBCB7009739F4 /* PastRunCell.swift */; };
 		E6109FFF250EBD89009739F4 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6109FFE250EBD89009739F4 /* Cell.swift */; };
@@ -45,14 +47,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E67F090624FAD30B00588028 /* PBXContainerItemProxy */ = {
+		E604A191254370410026F1E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E67F08E424FAD30A00588028 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E67F08EB24FAD30A00588028;
 			remoteInfo = MinhaCorrida;
 		};
-		E67F091124FAD30B00588028 /* PBXContainerItemProxy */ = {
+		E604A1A12543704E0026F1E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E67F08E424FAD30A00588028 /* Project object */;
 			proxyType = 1;
@@ -63,13 +65,8 @@
 
 /* Begin PBXFileReference section */
 		100EB91D9FF6EEDA98A706AD /* Pods_MinhaCorrida.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhaCorrida.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B42A7B80F5CE542E1CEA76C /* Pods_MinhaCorridaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhaCorridaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45FDE7B39647E8011CC15E0C /* Pods-MinhaCorridaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorridaTests.debug.xcconfig"; path = "Target Support Files/Pods-MinhaCorridaTests/Pods-MinhaCorridaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		52267AF0DD46FDF958177A4E /* Pods_MinhaCorrida_MinhaCorridaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhaCorrida_MinhaCorridaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73B610EBDE77EF16C1D72324 /* Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8DD3A437829B46EAA5D81576 /* Pods-MinhaCorrida.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida.debug.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida/Pods-MinhaCorrida.debug.xcconfig"; sourceTree = "<group>"; };
 		9CB17D2255595C33B653EA0C /* Pods-MinhaCorrida.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida.release.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida/Pods-MinhaCorrida.release.xcconfig"; sourceTree = "<group>"; };
-		CE7CE5253BDA7F9189A97E56 /* Pods-MinhaCorridaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorridaTests.release.xcconfig"; path = "Target Support Files/Pods-MinhaCorridaTests/Pods-MinhaCorridaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E602F8CA2504168A0006F68F /* CarrotsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotsTableViewController.swift; sourceTree = "<group>"; };
 		E602F8CC250416D90006F68F /* PastRunsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRunsTableViewController.swift; sourceTree = "<group>"; };
 		E602F8CE250417140006F68F /* CarrotDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotDetailsViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +74,14 @@
 		E602F8D2250417950006F68F /* RunDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDetailsViewController.swift; sourceTree = "<group>"; };
 		E602F8D42504352B0006F68F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		E6030B4B2542562F00D2F394 /* MinhaCorrida.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MinhaCorrida.xcdatamodel; sourceTree = "<group>"; };
+		E604A18C254370400026F1E7 /* MinhaCorridaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinhaCorridaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E604A18E254370410026F1E7 /* MinhaCorridaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaCorridaUITests.swift; sourceTree = "<group>"; };
+		E604A190254370410026F1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E604A19C2543704D0026F1E7 /* MinhaCorridaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinhaCorridaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E604A19E2543704E0026F1E7 /* MinhaCorridaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaCorridaTests.swift; sourceTree = "<group>"; };
+		E604A1A02543704E0026F1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E604A1BE254372B60026F1E7 /* SecretsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsManager.swift; sourceTree = "<group>"; };
+		E604A1C3254373C10026F1E7 /* Secrets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Secrets.json; sourceTree = "<group>"; };
 		E6109FF9250EB939009739F4 /* PastRunsTableViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PastRunsTableViewController+Extensions.swift"; sourceTree = "<group>"; };
 		E6109FFC250EBCB7009739F4 /* PastRunCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRunCell.swift; sourceTree = "<group>"; };
 		E6109FFE250EBD89009739F4 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
@@ -97,8 +102,6 @@
 		E67F08FB24FAD30B00588028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E67F08FE24FAD30B00588028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E67F090024FAD30B00588028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E67F090524FAD30B00588028 /* MinhaCorridaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinhaCorridaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E67F091024FAD30B00588028 /* MinhaCorridaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinhaCorridaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A0344B2506B753006CEC16 /* MulticolorPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorPolyline.swift; sourceTree = "<group>"; };
 		E6A57313250531B3004F16DA /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		E6BAF0442518563800A6B869 /* CarrotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotResponse.swift; sourceTree = "<group>"; };
@@ -107,31 +110,28 @@
 		E6D380E42505045E000B81CB /* NewRunViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewRunViewController+Extensions.swift"; sourceTree = "<group>"; };
 		E6E5CC6C2518192400317276 /* CarrotAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotAnnotation.swift; sourceTree = "<group>"; };
 		E6FC1D1725066A6400AB43D3 /* MinhaCorrida.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MinhaCorrida.entitlements; sourceTree = "<group>"; };
-		F3A7C753664AA35263FCDB31 /* Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E604A189254370400026F1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E604A1992543704D0026F1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E67F08E924FAD30A00588028 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7B3A022F898B3922FDAAD69E /* Pods_MinhaCorrida.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E67F090224FAD30B00588028 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F7DF245A4B036DC10E98D23 /* Pods_MinhaCorridaTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E67F090D24FAD30B00588028 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEED549D6E9E1A9F8C4D59FA /* Pods_MinhaCorrida_MinhaCorridaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +143,7 @@
 			children = (
 				8DD3A437829B46EAA5D81576 /* Pods-MinhaCorrida.debug.xcconfig */,
 				9CB17D2255595C33B653EA0C /* Pods-MinhaCorrida.release.xcconfig */,
-				F3A7C753664AA35263FCDB31 /* Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig */,
-				73B610EBDE77EF16C1D72324 /* Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig */,
-				45FDE7B39647E8011CC15E0C /* Pods-MinhaCorridaTests.debug.xcconfig */,
-				CE7CE5253BDA7F9189A97E56 /* Pods-MinhaCorridaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,10 +151,26 @@
 			isa = PBXGroup;
 			children = (
 				100EB91D9FF6EEDA98A706AD /* Pods_MinhaCorrida.framework */,
-				52267AF0DD46FDF958177A4E /* Pods_MinhaCorrida_MinhaCorridaUITests.framework */,
-				2B42A7B80F5CE542E1CEA76C /* Pods_MinhaCorridaTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E604A18D254370410026F1E7 /* MinhaCorridaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E604A18E254370410026F1E7 /* MinhaCorridaUITests.swift */,
+				E604A190254370410026F1E7 /* Info.plist */,
+			);
+			path = MinhaCorridaUITests;
+			sourceTree = "<group>";
+		};
+		E604A19D2543704E0026F1E7 /* MinhaCorridaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E604A19E2543704E0026F1E7 /* MinhaCorridaTests.swift */,
+				E604A1A02543704E0026F1E7 /* Info.plist */,
+			);
+			path = MinhaCorridaTests;
 			sourceTree = "<group>";
 		};
 		E6109FFB250EBCA0009739F4 /* Views */ = {
@@ -177,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				E67F08EE24FAD30A00588028 /* MinhaCorrida */,
+				E604A18D254370410026F1E7 /* MinhaCorridaUITests */,
+				E604A19D2543704E0026F1E7 /* MinhaCorridaTests */,
 				E67F08ED24FAD30A00588028 /* Products */,
 				20442DAEDD0F2733842686C1 /* Pods */,
 				D984493DB971862F8F9F812F /* Frameworks */,
@@ -187,8 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				E67F08EC24FAD30A00588028 /* MinhaCorrida.app */,
-				E67F090524FAD30B00588028 /* MinhaCorridaTests.xctest */,
-				E67F091024FAD30B00588028 /* MinhaCorridaUITests.xctest */,
+				E604A18C254370400026F1E7 /* MinhaCorridaUITests.xctest */,
+				E604A19C2543704D0026F1E7 /* MinhaCorridaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +232,8 @@
 				E6A0344B2506B753006CEC16 /* MulticolorPolyline.swift */,
 				E65D1540250453500081A337 /* PaceConverter.swift */,
 				E65D153E250452CA0081A337 /* UnitsFormatter.swift */,
+				E604A1BE254372B60026F1E7 /* SecretsManager.swift */,
+				E604A1C3254373C10026F1E7 /* Secrets.json */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -298,6 +313,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E604A18B254370400026F1E7 /* MinhaCorridaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E604A195254370410026F1E7 /* Build configuration list for PBXNativeTarget "MinhaCorridaUITests" */;
+			buildPhases = (
+				E604A188254370400026F1E7 /* Sources */,
+				E604A189254370400026F1E7 /* Frameworks */,
+				E604A18A254370400026F1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E604A192254370410026F1E7 /* PBXTargetDependency */,
+			);
+			name = MinhaCorridaUITests;
+			productName = MinhaCorridaUITests;
+			productReference = E604A18C254370400026F1E7 /* MinhaCorridaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E604A19B2543704D0026F1E7 /* MinhaCorridaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E604A1A32543704E0026F1E7 /* Build configuration list for PBXNativeTarget "MinhaCorridaTests" */;
+			buildPhases = (
+				E604A1982543704D0026F1E7 /* Sources */,
+				E604A1992543704D0026F1E7 /* Frameworks */,
+				E604A19A2543704D0026F1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E604A1A22543704E0026F1E7 /* PBXTargetDependency */,
+			);
+			name = MinhaCorridaTests;
+			productName = MinhaCorridaTests;
+			productReference = E604A19C2543704D0026F1E7 /* MinhaCorridaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E67F08EB24FAD30A00588028 /* MinhaCorrida */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67F091924FAD30B00588028 /* Build configuration list for PBXNativeTarget "MinhaCorrida" */;
@@ -317,66 +368,26 @@
 			productReference = E67F08EC24FAD30A00588028 /* MinhaCorrida.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E67F090424FAD30B00588028 /* MinhaCorridaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E67F091C24FAD30B00588028 /* Build configuration list for PBXNativeTarget "MinhaCorridaTests" */;
-			buildPhases = (
-				5D3DFB57BD671F359FE5589F /* [CP] Check Pods Manifest.lock */,
-				E67F090124FAD30B00588028 /* Sources */,
-				E67F090224FAD30B00588028 /* Frameworks */,
-				E67F090324FAD30B00588028 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E67F090724FAD30B00588028 /* PBXTargetDependency */,
-			);
-			name = MinhaCorridaTests;
-			productName = MinhaCorridaTests;
-			productReference = E67F090524FAD30B00588028 /* MinhaCorridaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E67F090F24FAD30B00588028 /* MinhaCorridaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E67F091F24FAD30B00588028 /* Build configuration list for PBXNativeTarget "MinhaCorridaUITests" */;
-			buildPhases = (
-				FD1B832AB852655AA34F1521 /* [CP] Check Pods Manifest.lock */,
-				E67F090C24FAD30B00588028 /* Sources */,
-				E67F090D24FAD30B00588028 /* Frameworks */,
-				E67F090E24FAD30B00588028 /* Resources */,
-				6A3EF440D25B5D71FAFECE7A /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E67F091224FAD30B00588028 /* PBXTargetDependency */,
-			);
-			name = MinhaCorridaUITests;
-			productName = MinhaCorridaUITests;
-			productReference = E67F091024FAD30B00588028 /* MinhaCorridaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E67F08E424FAD30A00588028 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
+				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "JON DEMAAGD";
 				TargetAttributes = {
+					E604A18B254370400026F1E7 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E67F08EB24FAD30A00588028;
+					};
+					E604A19B2543704D0026F1E7 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E67F08EB24FAD30A00588028;
+					};
 					E67F08EB24FAD30A00588028 = {
 						CreatedOnToolsVersion = 11.6;
-					};
-					E67F090424FAD30B00588028 = {
-						CreatedOnToolsVersion = 11.6;
-						LastSwiftMigration = 1210;
-						TestTargetID = E67F08EB24FAD30A00588028;
-					};
-					E67F090F24FAD30B00588028 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = E67F08EB24FAD30A00588028;
 					};
 				};
 			};
@@ -394,34 +405,35 @@
 			projectRoot = "";
 			targets = (
 				E67F08EB24FAD30A00588028 /* MinhaCorrida */,
-				E67F090424FAD30B00588028 /* MinhaCorridaTests */,
-				E67F090F24FAD30B00588028 /* MinhaCorridaUITests */,
+				E604A18B254370400026F1E7 /* MinhaCorridaUITests */,
+				E604A19B2543704D0026F1E7 /* MinhaCorridaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E604A18A254370400026F1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E604A19A2543704D0026F1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E67F08EA24FAD30A00588028 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E67F08FF24FAD30B00588028 /* LaunchScreen.storyboard in Resources */,
+				E604A1C4254373C10026F1E7 /* Secrets.json in Resources */,
 				E67F08FC24FAD30B00588028 /* Assets.xcassets in Resources */,
 				E67F08F724FAD30A00588028 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E67F090324FAD30B00588028 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E67F090E24FAD30B00588028 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,45 +455,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida/Pods-MinhaCorrida-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D3DFB57BD671F359FE5589F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MinhaCorridaTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A3EF440D25B5D71FAFECE7A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		766F18D2CB682BE8EC6BC1E4 /* [CP] Check Pods Manifest.lock */ = {
@@ -506,31 +479,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD1B832AB852655AA34F1521 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MinhaCorrida-MinhaCorridaUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E604A188254370400026F1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E604A18F254370410026F1E7 /* MinhaCorridaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E604A1982543704D0026F1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E604A19F2543704E0026F1E7 /* MinhaCorridaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E67F08E824FAD30A00588028 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -544,6 +511,7 @@
 				E67F08F224FAD30A00588028 /* SceneDelegate.swift in Sources */,
 				E6C5E9752504884300B3D364 /* LocationManager.swift in Sources */,
 				E62A313E2517FB5100B10939 /* CarrotsTableViewController+Extensions.swift in Sources */,
+				E604A1BF254372B60026F1E7 /* SecretsManager.swift in Sources */,
 				E65D15432504705C0081A337 /* RunDetailsViewController+Extensions.swift in Sources */,
 				E610A003250EF36D009739F4 /* PastRunDetailsViewController.swift in Sources */,
 				E6E5CC6D2518192400317276 /* CarrotAnnotation.swift in Sources */,
@@ -567,32 +535,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E67F090124FAD30B00588028 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E67F090C24FAD30B00588028 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E67F090724FAD30B00588028 /* PBXTargetDependency */ = {
+		E604A192254370410026F1E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E67F08EB24FAD30A00588028 /* MinhaCorrida */;
-			targetProxy = E67F090624FAD30B00588028 /* PBXContainerItemProxy */;
+			targetProxy = E604A191254370410026F1E7 /* PBXContainerItemProxy */;
 		};
-		E67F091224FAD30B00588028 /* PBXTargetDependency */ = {
+		E604A1A22543704E0026F1E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E67F08EB24FAD30A00588028 /* MinhaCorrida */;
-			targetProxy = E67F091124FAD30B00588028 /* PBXContainerItemProxy */;
+			targetProxy = E604A1A12543704E0026F1E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -616,6 +570,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E604A193254370410026F1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJADQW9X;
+				INFOPLIST_FILE = MinhaCorridaUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinhaCorrida;
+			};
+			name = Debug;
+		};
+		E604A194254370410026F1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJADQW9X;
+				INFOPLIST_FILE = MinhaCorridaUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinhaCorrida;
+			};
+			name = Release;
+		};
+		E604A1A42543704E0026F1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJADQW9X;
+				INFOPLIST_FILE = MinhaCorridaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinhaCorrida.app/MinhaCorrida";
+			};
+			name = Debug;
+		};
+		E604A1A52543704E0026F1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24GJADQW9X;
+				INFOPLIST_FILE = MinhaCorridaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinhaCorrida.app/MinhaCorrida";
+			};
+			name = Release;
+		};
 		E67F091724FAD30B00588028 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -774,102 +810,27 @@
 			};
 			name = Release;
 		};
-		E67F091D24FAD30B00588028 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45FDE7B39647E8011CC15E0C /* Pods-MinhaCorridaTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24GJADQW9X;
-				INFOPLIST_FILE = MinhaCorridaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MinhaCorridaTests/MinhaCorridaTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinhaCorrida.app/MinhaCorrida";
-			};
-			name = Debug;
-		};
-		E67F091E24FAD30B00588028 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE7CE5253BDA7F9189A97E56 /* Pods-MinhaCorridaTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24GJADQW9X;
-				INFOPLIST_FILE = MinhaCorridaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MinhaCorridaTests/MinhaCorridaTests-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinhaCorrida.app/MinhaCorrida";
-			};
-			name = Release;
-		};
-		E67F092024FAD30B00588028 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3A7C753664AA35263FCDB31 /* Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24GJADQW9X;
-				INFOPLIST_FILE = MinhaCorridaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MinhaCorrida;
-			};
-			name = Debug;
-		};
-		E67F092124FAD30B00588028 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B610EBDE77EF16C1D72324 /* Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24GJADQW9X;
-				INFOPLIST_FILE = MinhaCorridaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jdemaagd.MinhaCorridaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MinhaCorrida;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E604A195254370410026F1E7 /* Build configuration list for PBXNativeTarget "MinhaCorridaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E604A193254370410026F1E7 /* Debug */,
+				E604A194254370410026F1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E604A1A32543704E0026F1E7 /* Build configuration list for PBXNativeTarget "MinhaCorridaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E604A1A42543704E0026F1E7 /* Debug */,
+				E604A1A52543704E0026F1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E67F08E724FAD30A00588028 /* Build configuration list for PBXProject "MinhaCorrida" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -884,24 +845,6 @@
 			buildConfigurations = (
 				E67F091A24FAD30B00588028 /* Debug */,
 				E67F091B24FAD30B00588028 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E67F091C24FAD30B00588028 /* Build configuration list for PBXNativeTarget "MinhaCorridaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E67F091D24FAD30B00588028 /* Debug */,
-				E67F091E24FAD30B00588028 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E67F091F24FAD30B00588028 /* Build configuration list for PBXNativeTarget "MinhaCorridaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E67F092024FAD30B00588028 /* Debug */,
-				E67F092124FAD30B00588028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

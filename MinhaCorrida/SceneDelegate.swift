@@ -10,7 +10,6 @@ import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
 import CoreData
-import Keys
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -23,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let _ = (scene as? UIWindowScene) else { return }
 
-        MSAppCenter.start(MinhaCorridaKeys().appCenterAppSecret, withServices:[
+        MSAppCenter.start(SecretsManager().appCenterAppSecret, withServices:[
           MSAnalytics.self,
           MSCrashes.self
         ])

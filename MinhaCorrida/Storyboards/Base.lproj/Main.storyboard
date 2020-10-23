@@ -206,7 +206,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="738"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMU-5F-0Nz">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="357"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="230"/>
                                         <color key="backgroundColor" red="0.0012905541810000001" green="0.57083660359999999" blue="0.27052018049999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <state key="normal" title="New Run">
@@ -217,7 +217,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWJ-OG-elj">
-                                        <rect key="frame" x="0.0" y="381" width="414" height="357"/>
+                                        <rect key="frame" x="0.0" y="254" width="414" height="230"/>
                                         <color key="backgroundColor" red="0.00026609352789999999" green="0.44920110699999999" blue="0.097897939379999993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <state key="normal" title="Past Runs">
@@ -225,6 +225,17 @@
                                         </state>
                                         <connections>
                                             <action selector="pastRunsTapped:" destination="YWd-eR-JiC" eventType="touchUpInside" id="z0D-EV-Nwz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXD-BQ-f4G">
+                                        <rect key="frame" x="0.0" y="508" width="414" height="230"/>
+                                        <color key="backgroundColor" red="0.10639015590000001" green="0.2624518871" blue="0.28235638140000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="My Carrots">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="carrotTapped:" destination="YWd-eR-JiC" eventType="touchUpInside" id="jbF-vJ-wzL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -245,7 +256,7 @@
                     <connections>
                         <outlet property="activityIndicator" destination="ZR9-2F-UES" id="5ww-VP-REQ"/>
                         <outlet property="buttonStackView" destination="7wc-iU-xkq" id="6tA-2b-GGE"/>
-                        <outlet property="carrotButton" destination="gUv-gZ-HFh" id="1kr-uu-d9V"/>
+                        <outlet property="carrotButton" destination="QXD-BQ-f4G" id="8Nt-oz-GbK"/>
                         <outlet property="newRunButton" destination="zMU-5F-0Nz" id="8rN-ji-zMy"/>
                         <outlet property="pastRunsButton" destination="mWJ-OG-elj" id="d2x-j7-3yq"/>
                         <segue destination="Ow9-OT-w0g" kind="show" identifier="newRunSegue" id="zO6-Lw-9Vb"/>

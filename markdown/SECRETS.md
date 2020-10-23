@@ -1,6 +1,6 @@
 # [Manage Secrets](https://www.lordcodes.com/articles/managing-secrets-within-an-ios-app)
 
-## [CocoaPodsKeys](https://medium.com/@eelia/introduction-to-cocoapods-keys-840493b98ef1)
+## [CocoaPodsKeys](https://github.com/orta/cocoapods-keys)
 
 - ~/.cocaapods/keys
 - values save in keychain 
@@ -25,4 +25,11 @@
 
 https://stackoverflow.com/questions/23755974/cocoapods-pod-install-takes-forever
 https://github.com/CocoaPods/CocoaPods/issues/10078
+
+
+[command]/usr/local/lib/ruby/gems/2.6.0/bin/pod install --repo-update
+[!] Your Podfile requires that the plugin `cocoapods-keys` be installed. Please install it and try installation again.
+##[error]The process '/usr/local/lib/ruby/gems/2.6.0/bin/pod' failed with exit code 1
+##[error]The 'pod' command failed with error: The process '/usr/local/lib/ruby/gems/2.6.0/bin/pod' failed with exit code 1
+
 

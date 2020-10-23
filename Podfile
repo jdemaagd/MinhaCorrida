@@ -1,3 +1,6 @@
+# source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
+
 platform :ios, '13.6'
 
 target 'MinhaCorrida' do

@@ -22,3 +22,7 @@
   - Export 2 items (certificate and private key)
   - Upload Certificate.p12 to App Center
 
+
+https://stackoverflow.com/questions/23755974/cocoapods-pod-install-takes-forever
+https://github.com/CocoaPods/CocoaPods/issues/10078
+

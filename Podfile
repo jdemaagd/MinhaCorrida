@@ -1,5 +1,6 @@
 # source 'https://github.com/CocoaPods/Specs.git'
-source 'https://cdn.cocoapods.org/'
+# source 'https://cdn.cocoapods.org/'
+source 'https://cocoapods-cdn.netlify.app/'
 
 platform :ios, '13.6'
 

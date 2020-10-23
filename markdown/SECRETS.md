@@ -10,6 +10,7 @@
 
 - Product > Scheme > Manage schemes
 - include: AppName.xcodeproj/xcshareddata/xcschemes/AppName.xcscheme
+- /Users/jdemaagd/Library/Developer/Xcode/DerivedData
 
 ## [Code Signing](https://docs.microsoft.com/en-us/appcenter/build/ios/code-signing)
 
@@ -22,18 +23,21 @@
   - Export 2 items (certificate and private key)
   - Upload Certificate.p12 to App Center
 
-## App Center CocoaPods Keys ERROR
-
-```
-  [command]/usr/local/lib/ruby/gems/2.6.0/bin/pod install --repo-update
-  [!] Your Podfile requires that the plugin `cocoapods-keys` be installed. Please install it and try installation again.
-  ##[error]The process '/usr/local/lib/ruby/gems/2.6.0/bin/pod' failed with exit code 1
-  ##[error]The 'pod' command failed with error: The process '/usr/local/lib/ruby/gems/2.6.0/bin/pod' failed with exit code 1
-```
-
 ## [Secrets Center](https://github.com/AaronTunney/SecretsCenter)
 
 - gem install bundler
 - bundle install
 - bundle exec pod install
+- bundle exec pod keys set KEY VALUE (save keys on per-project)
+- bundle exec pod keys (list all keys)
+- bundle exec pod keys get [key] [optional project] (get key)
+- bundle exec pod keys rm [key] [optional project] (remove key)
+- bundle exec pod keys rm --all (remove all keys)
+- bundle exec pod keys rm "*" (remove keys matching pattern)
+- bundle exec pod keys generate [optional project]
+
+## Resources
+
+- [Vim Replace](https://vim.fandom.com/wiki/Replace_a_word_with_yanked_text)
+- [Vim Find and Replace](https://vim.fandom.com/wiki/Search_and_replace)
 

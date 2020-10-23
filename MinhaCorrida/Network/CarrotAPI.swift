@@ -7,16 +7,15 @@
 //
 
 import Foundation
-import Keys
 
 class CarrotAPI {
-    static let functionBaseUrl = MinhaCorridaKeys().azureMinhaCorridaBaseUrl
-    static let functionKey =  MinhaCorridaKeys().azureMinhaCorridaFunctionKey
+    static let functionBaseUrl = SecretsManager().azureMinhaCorridaBaseUrl
+    static let functionKey =  SecretsManager().azureMinhaCorridaFunctionKey
     
     enum Endpoint {
 
         static let baseUrl = functionBaseUrl
-        static let functionKeyParam = "?code=\(CarrotAPI.functionKey)"
+        static let functionKeyParam = "?code=\(CarrotAPI.functionKey ?? "no key")"
         
         case listAllCarrots
 
@@ -27,7 +26,7 @@ class CarrotAPI {
         var urlString: String {
             switch self {
             case .listAllCarrots:
-                return CarrotAPI.Endpoint.baseUrl + Endpoint.functionKeyParam
+                return CarrotAPI.functionBaseUrl! + Endpoint.functionKeyParam
             }
         }
     }

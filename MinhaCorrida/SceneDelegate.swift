@@ -22,9 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let _ = (scene as? UIWindowScene) else { return }
 
-        MSAppCenter.start(SecretsManager().appCenterAppSecret, withServices:[
-          MSAnalytics.self,
-          MSCrashes.self
+        MSAppCenter.start(SecretsManager.appCenterAppSecret, withServices:[
+            MSAnalytics.self,
+            MSCrashes.self
         ])
         
         dataController.load()

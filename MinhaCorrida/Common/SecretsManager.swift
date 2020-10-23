@@ -9,17 +9,17 @@
 import Keys
 
 public class SecretsManager {
-    let keys = MinhaCorridaKeys()
+    static let keys = MinhaCorridaKeys()
     
-    var appCenterAppSecret: String? {
+    static var appCenterAppSecret: String? {
         return keys.appCenterAppSecret
     }
     
-    var azureMinhaCorridaBaseUrl: String? {
+    static var azureMinhaCorridaBaseUrl: String? {
         return keys.azureMinhaCorridaBaseUrl
     }
     
-    var azureMinhaCorridaFunctionKey: String? {
+    static var azureMinhaCorridaFunctionKey: String? {
         return keys.azureMinhaCorridaFunctionKey
     }
 

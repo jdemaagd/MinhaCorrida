@@ -9,8 +9,8 @@
 import Foundation
 
 class CarrotAPI {
-    static let functionBaseUrl = SecretsManager().azureMinhaCorridaBaseUrl
-    static let functionKey =  SecretsManager().azureMinhaCorridaFunctionKey
+    static let functionBaseUrl = SecretsManager.azureMinhaCorridaBaseUrl
+    static let functionKey =  SecretsManager.azureMinhaCorridaFunctionKey
     
     enum Endpoint {
 

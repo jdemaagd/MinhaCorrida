@@ -11,6 +11,8 @@
 - Product > Scheme > Manage schemes
 - include: AppName.xcodeproj/xcshareddata/xcschemes/AppName.xcscheme
 - /Users/jdemaagd/Library/Developer/Xcode/DerivedData
+- /Users/jdemaagd/Library/MobileDevice/Provisioning\ Profiles/
+- get file info: mdls /path-to-file/filename
 
 ## [Code Signing](https://docs.microsoft.com/en-us/appcenter/build/ios/code-signing)
 

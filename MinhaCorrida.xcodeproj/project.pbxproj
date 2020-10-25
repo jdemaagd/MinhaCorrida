@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EF8147504FAB142F50C46C1 /* Pods_MinhaCorridaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184C5FA28709C5A9CAE2FA5A /* Pods_MinhaCorridaTests.framework */; };
 		7B3A022F898B3922FDAAD69E /* Pods_MinhaCorrida.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100EB91D9FF6EEDA98A706AD /* Pods_MinhaCorrida.framework */; };
+		890457E868927432E263CF92 /* Pods_MinhaCorrida_MinhaCorridaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970DF215108B6CA8E2E3EDBD /* Pods_MinhaCorrida_MinhaCorridaUITests.framework */; };
 		E602F8CB2504168A0006F68F /* CarrotsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8CA2504168A0006F68F /* CarrotsTableViewController.swift */; };
 		E602F8CD250416D90006F68F /* PastRunsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8CC250416D90006F68F /* PastRunsTableViewController.swift */; };
 		E602F8CF250417140006F68F /* CarrotDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602F8CE250417140006F68F /* CarrotDetailsViewController.swift */; };
@@ -64,9 +66,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0926CCA9A4CC0EB1FC6B28D4 /* Pods-MinhaCorridaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorridaTests.debug.xcconfig"; path = "Target Support Files/Pods-MinhaCorridaTests/Pods-MinhaCorridaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		100EB91D9FF6EEDA98A706AD /* Pods_MinhaCorrida.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhaCorrida.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C5FA28709C5A9CAE2FA5A /* Pods_MinhaCorridaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhaCorridaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD3A437829B46EAA5D81576 /* Pods-MinhaCorrida.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida.debug.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida/Pods-MinhaCorrida.debug.xcconfig"; sourceTree = "<group>"; };
+		970DF215108B6CA8E2E3EDBD /* Pods_MinhaCorrida_MinhaCorridaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhaCorrida_MinhaCorridaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB17D2255595C33B653EA0C /* Pods-MinhaCorrida.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida.release.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida/Pods-MinhaCorrida.release.xcconfig"; sourceTree = "<group>"; };
+		A04AE75DDF53EFD253CC4A98 /* Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6FE9D46265080664327AF04 /* Pods-MinhaCorridaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorridaTests.release.xcconfig"; path = "Target Support Files/Pods-MinhaCorridaTests/Pods-MinhaCorridaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1DA8F043C2E31B8FCE2B66E /* Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig"; path = "Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E602F8CA2504168A0006F68F /* CarrotsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotsTableViewController.swift; sourceTree = "<group>"; };
 		E602F8CC250416D90006F68F /* PastRunsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRunsTableViewController.swift; sourceTree = "<group>"; };
 		E602F8CE250417140006F68F /* CarrotDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotDetailsViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890457E868927432E263CF92 /* Pods_MinhaCorrida_MinhaCorridaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF8147504FAB142F50C46C1 /* Pods_MinhaCorridaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +153,10 @@
 			children = (
 				8DD3A437829B46EAA5D81576 /* Pods-MinhaCorrida.debug.xcconfig */,
 				9CB17D2255595C33B653EA0C /* Pods-MinhaCorrida.release.xcconfig */,
+				A04AE75DDF53EFD253CC4A98 /* Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig */,
+				E1DA8F043C2E31B8FCE2B66E /* Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig */,
+				0926CCA9A4CC0EB1FC6B28D4 /* Pods-MinhaCorridaTests.debug.xcconfig */,
+				C6FE9D46265080664327AF04 /* Pods-MinhaCorridaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				100EB91D9FF6EEDA98A706AD /* Pods_MinhaCorrida.framework */,
+				970DF215108B6CA8E2E3EDBD /* Pods_MinhaCorrida_MinhaCorridaUITests.framework */,
+				184C5FA28709C5A9CAE2FA5A /* Pods_MinhaCorridaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -317,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E604A195254370410026F1E7 /* Build configuration list for PBXNativeTarget "MinhaCorridaUITests" */;
 			buildPhases = (
+				C4AB6F6352D65EEBEDDBF5D1 /* [CP] Check Pods Manifest.lock */,
 				E604A188254370400026F1E7 /* Sources */,
 				E604A189254370400026F1E7 /* Frameworks */,
 				E604A18A254370400026F1E7 /* Resources */,
+				14C089A7CF373D017A86EB51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E604A1A32543704E0026F1E7 /* Build configuration list for PBXNativeTarget "MinhaCorridaTests" */;
 			buildPhases = (
+				E8247E323002ACB2F3B48029 /* [CP] Check Pods Manifest.lock */,
 				E604A1982543704D0026F1E7 /* Sources */,
 				E604A1992543704D0026F1E7 /* Frameworks */,
 				E604A19A2543704D0026F1E7 /* Resources */,
@@ -457,6 +476,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida/Pods-MinhaCorrida-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		14C089A7CF373D017A86EB51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhaCorrida-MinhaCorridaUITests/Pods-MinhaCorrida-MinhaCorridaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		766F18D2CB682BE8EC6BC1E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,6 +509,50 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MinhaCorrida-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AB6F6352D65EEBEDDBF5D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MinhaCorrida-MinhaCorridaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8247E323002ACB2F3B48029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MinhaCorridaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -572,6 +652,7 @@
 /* Begin XCBuildConfiguration section */
 		E604A193254370410026F1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04AE75DDF53EFD253CC4A98 /* Pods-MinhaCorrida-MinhaCorridaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24GJADQW9X;
@@ -592,6 +673,7 @@
 		};
 		E604A194254370410026F1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DA8F043C2E31B8FCE2B66E /* Pods-MinhaCorrida-MinhaCorridaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24GJADQW9X;
@@ -612,6 +694,7 @@
 		};
 		E604A1A42543704E0026F1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0926CCA9A4CC0EB1FC6B28D4 /* Pods-MinhaCorridaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -633,6 +716,7 @@
 		};
 		E604A1A52543704E0026F1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FE9D46265080664327AF04 /* Pods-MinhaCorridaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
